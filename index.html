@@ -34,8 +34,8 @@
       var script = document.createElement('script');
       script.src = "https://fit3d.xyz/widgets/build/messengerWidget.bundle.js";
       script.async = true;
-      var entry = document.getElementsByTagName('script')[0];
-      entry.parentNode.insertBefore(script, entry);
+      var entry = document.getElementsByTagName('script')[1];
+      entry.parentNode.insertAfter(script, entry);
     })();
   
     </script>
@@ -60,6 +60,7 @@
 		<!-- Zalo Chat -->
 		<div class="zalo-chat-widget" data-oaid="4576305521203772162" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="300" data-height="500"></div>
 		<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+		<script />
 	</main>
 </body>
 </html>
